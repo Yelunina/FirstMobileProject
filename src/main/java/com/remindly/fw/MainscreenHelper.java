@@ -26,4 +26,8 @@ public class MainscreenHelper extends BaseHelper {
     public String isReminderTitlePresent() {
         return driver.findElement(By.id("recycle_title")).getText();
     }
+
+    public String isReminderDatePresent() {
+        return driver.findElement(By.id("recycle_date_time")).getText();
+    }
 }
